@@ -1,5 +1,9 @@
-console.log("Hello World");
-alert("hello World");
+$name = "David"
+
+//document.getElementById("text").innerHTML = $name;
+//console.log($name);
+//alert($name);
+
 
 
 // automatic declaration
@@ -47,5 +51,10 @@ let nickname;
 let lastName = null;
 
 
+/*-----------------------------------*/
 
+//concatination
+
+let firstName = "James";
+alert("Hi" + firstName);
 
