@@ -1,60 +1,21 @@
-$name = "David"
-
-//document.getElementById("text").innerHTML = $name;
-//console.log($name);
-//alert($name);
-
+let person1 = "Alrnere";
+let person2 = "David";
+let pronoun = "she";
+let drink = "coffee";
 
 
-// automatic declaration
-x = 5;
-y = 12.5;
-z = "Hello World";
+alert(
+    person1 + ", the friendly neighbor, waved at "
+    + person2 + " as " + pronoun + " walked by "
+    + person2 +"'s house. " +
+    person2 + " smiled back and invited " + person1 +
+    " in for a cup of " + drink
+);
 
-// let declaration
-let x = 5;
-let y = 12.5;
-let z = "Hello World";
-
-
-
-// constant
-const a = 5;
-const b = 12.5;
-const c = "Hello World";
-
-
-//var
-var d = 5;
-var e = 12.5;
-var f = "Hello World";
-
-/*------------------------------*/
-
-//string
-let name = "david";
-
-
-// number
-let number = 5;
-
-
-//Boolean
-let isCoding = false;
-
-
-//Undefined
-let nickname;
-
-
-//Null
-let lastName = null;
-
-
-/*-----------------------------------*/
-
-//concatination
-
-let firstName = "James";
-alert("Hi" + firstName);
-
+console.log(
+    person1 + ", the friendly neighbor, waved at "
+    + person2 + " as " + pronoun + " walked by "
+    + person2 +"'s house. " +
+    person2 + " smiled back and invited " + person1 +
+    " in for a cup of " + drink
+);
